@@ -1,7 +1,12 @@
 //Iteración #2: Modificando el DOM
 //2.1 Inserta dinamicamente en un html un div vacio con javascript.
-
+const div0 = document.createElement("div");
+console.log(div0);
 //2.2 Inserta dinamicamente en un html un div que contenga una p con javascript.
+const div1 = document.createElement("div");
+const p0 = document.createElement("p");
+div1.appendChild(p0);
+console.log(p0)
 
 //2.3 Inserta dinamicamente en un html un div que contenga 6 p utilizando un loop con javascript.
 

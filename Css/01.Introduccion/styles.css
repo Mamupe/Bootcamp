@@ -1,0 +1,26 @@
+h1{
+    color: rgb(188, 36, 36);
+    text-decoration:line-through
+}
+
+div{
+    width: 8rem;
+    height: 8rem; 
+    background-color: black;
+}
+.saludo{
+    background-color: green;
+}
+.despedida{
+    background-color: aquamarine;
+}
+
+body{
+    background-color: bisque;
+    color:blueviolet;
+}
+
+.highlight{
+    color: yelow;
+    font-weight: bold;
+}
