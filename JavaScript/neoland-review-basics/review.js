@@ -9,7 +9,9 @@ const movies = [
     {title: 'Solo en Whatsapp', duration: 223, categories: ['comedia', 'thriller']},
     {title: 'El gato con guantes', duration: 111, categories: ['comedia', 'aventura', 'animación']},
 ]
-
+for (const iterator of movies) {
+    
+}
 //**Iteración #2: Mix Fors**
 
 //Dado el siguiente javascript usa forof y forin para hacer la media del volumen de todos los sonidos favoritos que tienen los usuarios.
