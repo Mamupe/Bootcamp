@@ -46,8 +46,8 @@ for (const item of apps) {
    
 
 //2.7 Elimina todos los nodos que tengan la clase .fn-remove-me
-var remove = document.getElementById('.fn-remove-me');
-remove.classList.remove('p');
+var remove = document.getElementsByClassName('fn-remove-me');
+remove.classList.remove('fn-remove-me');
 
 
 //2.8 Inserta una p con el texto 'Voy en medio!' entre los dos div. 
