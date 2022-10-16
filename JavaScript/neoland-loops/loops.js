@@ -29,14 +29,22 @@ const alumns = [
   { name: "Alfredo Blanco", T1: false, T2: false, T3: false }, //suspenso
   { name: "Raquel Benito", T1: true, T2: true, T3: true }, //aprobado
 ];
-alumns.forEach((alumns) => {
-  alumns.isApproved = true;
+alumns.forEach((alumn) => {
+  alumn.isApproved = true;
+  if (alumn.T1 == false && alumn.T2 == false) {
+    alumn.isApproved = false
+  } else if (alumn.T1 == false && alumn.T3 == false) {
+    alumn.isApproved = false
+  } else if (alumn.T2 == false && alumn.T3 == false) {
+    alumn.isApproved = false;
+  }
+
 });
 console.log(alumns);
 
 //Iteracion #3:
 //Usa un bucle forof para recorrer todos los destinos del array. Imprime en un console.log sus valores.
-const placesToTravel = [
+const placesToTravele = [
   "Japon",
   "Venecia",
   "Murcia",
@@ -44,7 +52,7 @@ const placesToTravel = [
   "Filipinas",
   "Madagascar",
 ];
-for (const iterator of placesToTravel) {
+for (const iterator of placesToTravele) {
   console.log(iterator);
 }
 
@@ -87,14 +95,10 @@ console.log(newPlaces);
 
 
 
-
-
-
-
 //Iteración #6: Mixed For...of e includes
 //Usa un bucle for...of para recorrer todos los juguetes y elimina los que incluyan la palabra gato.
 // Recuerda que puedes usar la función .includes() para comprobarlo.Puedes usar este array:
-/* const toys = [
+const toys = [
     {id: 5, name: 'Buzz MyYear'}, 
     {id: 11, name: 'Action Woman'}, 
     {id: 23, name: 'Barbie Man'}, 
@@ -102,6 +106,14 @@ console.log(newPlaces);
     {id: 40, name: 'El gato felix'}
     ]
   
+    const supr = [];
+    for (const toy of toys) {
+
+    if (!toy.name.includes("gato")) {
+       supr.push(toy);
+    }
+}
+    console.log(supr);
 
 
 
