@@ -11,9 +11,9 @@
 ]
 const categorias = []
 for (const movie of movies) {
-        for (const categorie of movie.categories) {
-        if (categorias.includes(categorie) == false) {
-            categorias.push(categorie)
+        for (const category of movie.categories) {
+        if (categorias.includes(category) == false) {
+            categorias.push(category)
         }
     }
 }

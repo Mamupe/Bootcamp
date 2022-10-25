@@ -10,7 +10,7 @@ for (const item of countries) {
 }
 //1.2 Elimina el elemento que tenga la clase .fn-remove-me.
 var supr = document.querySelector(".fn-remove-me");
-supr.classList.remove("fn-remove-me");
+supr.remove("fn-remove-me");
 /* 1.3 Utiliza el array para crear dinamicamente una lista ul > li de elementos 
 en el div de html con el atributo data-function="printHere".*/
 const cars = ['Mazda 6', 'Ford fiesta', 'Audi A4', 'Toyota corola']; 
@@ -36,7 +36,7 @@ const countries1 = [
 	{title: 'Random title', imgUrl: 'https://picsum.photos/300/200?random=4'},
 	{title: 'Random title', imgUrl: 'https://picsum.photos/300/200?random=5'}
 ];
-const list = document.createElement("div");
+/* const list = document.createElement("div");
 document.body.appendChild(list);
 for (const country of countries1) {
    const h4 = `
@@ -45,6 +45,21 @@ for (const country of countries1) {
    ` 
 list.innerHTML += h4;
 };
+ */
+const countryList = document.createElement("ul");
+for (const country of countries1) {
+   const div = document.createElement("div");
+   const h4 = document.createElement("h4");
+   const img = document.createElement("img");
+   const btn = document.createElement("button");
+
+
+   
+}
+
+
+
+
 
 
 /* 1.5 Basandote en el ejercicio anterior. Crea un botón que elimine el último 

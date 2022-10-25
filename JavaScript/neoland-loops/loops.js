@@ -132,7 +132,7 @@ const toys = [
   ] 
   const popularToys = [];
 for (const toy of toys2) {
-  if (toys2.sellCount >= 15) {
+  if (toys2.sellCount > 15) {
     popularToys.push(toy)
   }
 }

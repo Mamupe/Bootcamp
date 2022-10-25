@@ -49,11 +49,11 @@ streamer.gameMorePlayed.includes("Legends"))
         streamer.gameMorePlayed = streamer.gameMorePlayed.toUpperCase();
     }  
 }
-    
+console.log(enjutos2); 
    
         
     
-console.log(enjutos2);
+
 
 
 

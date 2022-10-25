@@ -18,7 +18,7 @@ let clicar = function(event) {
 //1.2 Añade un evento 'focus' que ejecute un console.log con el valor del input.
 
 const focuss = document.querySelector(".focus");
-focuss.addEventListener("focus", (ev) => console.log(focuss.value));
+focuss.addEventListener("focus", (ev) => console.log(ev.target));
 
 
 
