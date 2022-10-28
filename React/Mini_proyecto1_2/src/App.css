@@ -18,6 +18,7 @@ body {
   justify-content: center;
  }
  #root > div {
+  
 text-align: center;
 font-family: monospace;
 padding: 2rem;
@@ -29,6 +30,7 @@ color:whitesmoke;
   border: solid black 4px;
   border-radius: 7px;
  }
+
  
 
 

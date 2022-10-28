@@ -1,26 +1,30 @@
-import React from "react";
-import {Card} from "./Card";
+import React from "react"
+import { CharacCard } from "./CharacCard"
 
 export const CharacterList = () => {
     const [characterList, setCharacterList] = React.useState([]);
     React.useEffect(() => {
         (async () => {
-          let data = await fetch (`https://rickandmortyapi.com/api/character/`).then(
+          let data = await fetch (`https://breakingbadapi.com/api/characters`).then(
             (res) => res.json()
           );
-    
-          setCharacterList(data.results);
+    /* console.log(data) */
+          setCharacterList(data);
         })();
       }, []);
-    
+
       return (
         <>
-        {/* <h1>Mini proyecto Rick & Morty</h1> */}
           {characterList.map((character) => (
-          <Card key={character.id} character={character}/>
+            <CharacCard key={character.char_id} character={character}/> 
+         
+            
+         
           ))}
           
         </>
         
       );
     };
+
+    

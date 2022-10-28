@@ -1,0 +1,39 @@
+{
+  "personajes": [
+    {
+      "id": 1,
+      "name": "Walter White",
+      "img": "https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg",
+      "status": "Presumed dead",
+      "nickname": "Heisenberg"
+    },
+    {
+      "id": 2,
+      "name": "Jesse Pinkman",
+      "img": "https://vignette.wikia.nocookie.net/breakingbad/images/9/95/JesseS5.jpg/revision/latest?cb=20120620012441",
+      "status": "Alive",
+      "nickname": "Cap n' Cook"
+    },
+    {
+      "id": 3,
+      "name": "Skyler White",
+      "img": "https://s-i.huffpost.com/gen/1317262/images/o-ANNA-GUNN-facebook.jpg",
+      "status": "Alive",
+      "nickname": "Sky"
+    },
+    {
+      "name": "Homer",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.discogs.com%2Fes%2Fartist%2F1400317-Homer-Simpson&psig=AOvVaw2PpWi_Cw-qcs_OnSTdDhwH&ust=1666969943544000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJimo4vZgPsCFQAAAAAdAAAAABAE",
+      "status": "casado",
+      "nickname": "Homi",
+      "id": 4
+    },
+    {
+      "name": "Alvaro",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.linkedin.com%2Fin%2F%25C3%25A1lvaro-l%25C3%25B3pez-zarraute-950b2a113&psig=AOvVaw0iYigBVQ8jBs_JDXfSl0ha&ust=1666970058595000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCOCj9MHZgPsCFQAAAAAdAAAAABAE",
+      "status": "Soltero",
+      "nickname": "Hindú",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+#root {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+} 
+
+/* .App {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+} */
+header {
+  display: flex;
+justify-content: center;
+align-items:center;
+
+position: relative;
+
+}
+
+nav {
+  display: flex;
+ justify-content: space-between;
+ position: relative;
+ 
+
+}
+
+main {
+ 
+
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  text-align: center;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+
+height: 300px;
+width: 220px;
+}
